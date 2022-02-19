@@ -32,6 +32,11 @@ body{
     height: 90vh;
 }
 
+.section1{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
 .section h1{
     font-size: 68px;
     font-family: 'Alegreya Sans', sans-serif;
@@ -46,7 +51,7 @@ body{
 }
 
 .maintext{
-    width: 50vw;
+    width: 40vw;
     padding: 180px 0px 0px 120px;
 }
 
@@ -54,4 +59,23 @@ body{
     background: rgba(255,255,255,0.3);
     text-transform: uppercase;
     padding-left: 50px;
+}
+
+#laptop{
+    margin-top: 100px;
+    margin-left: -200px;
+    width: 1000px;
+}
+
+
+#planta1{
+    width: 180px;
+    top: -200px;
+    left: -240px;
+    position: relative;
+    z-index: -1; 
+}
+
+#planta1:hover{
+    transform: rotate(25deg);
 }
